@@ -75,4 +75,35 @@ Og figma og readme er slettet
 
 det kan du ændre i source control og tryk på discard vhanges på readme fil, vi vil ikke have figma fil i projektet.
 
+commit changes
 
+run npm install - for at hente alle de dependencies der ligger i vores package json
+
+npm run dev - så er den lokale udviklingsserver blevet udviklet for os, og denne her kommando viser os projektet i browseren. 
+
+MAPPE STRUKTUR -forklaring
+--i dette projekt bruger vi også en bundler, ligesom webpack. Kig i node modules i den er der en mappe der hedder rollup, det er også en bundler. 
+
+--build og public er bare to navne for den mappe der indeholder det som er bygget og klart til at blive publiseret. 
+
+--src mappen er til alle javascript filer.
+
+--assets indeholder billeder og ikoner.
+
+--components mappen, indeholder custome made components og mappen hvor de importeres. 
+
+--Vores index.js er det samme som main.jsx, app.jsx indeholder strukturen, men main.jsx indeholder hele appen.
+
+--app.jsx er den fil der deklarere strukturen. de tags der ligger i app.jsx minder om HTML. Vi kan kigge på komponenterne for at se om de er stukrureret korrekt. I app.jsx bygges strukturen. 
+
+
+-- en template består af komponenter og en side består af flere templates. e.g header er en template af flere komponenter. 
+
+OPSÆTNING AF PROJKET:
+--SLet inde i  app.jsk alt inde i div'en
+--slet count
+--slet tre øverste linjer
+
+--i assets mappen flyt react svg op til public mappen.
+
+index.css: kaver et root rest, den slettes
