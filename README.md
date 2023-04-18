@@ -58,3 +58,21 @@ https://developers.themoviedb.org/3/getting-started/images
 ```
 
 
+INSTALLER REACT;
+
+find documentation til react på : https://vitejs.dev/guide/
+
+Vælg det link der hedder NPM, da vores webpack hedder det.
+
+skriv i terminalen npm create vite@latest
+
+skriv punktum for package name
+vælg react
+vælg javascript
+
+filer er oprettet
+Og figma og readme er slettet
+
+det kan du ændre i source control og tryk på discard vhanges på readme fil, vi vil ikke have figma fil i projektet.
+
+
