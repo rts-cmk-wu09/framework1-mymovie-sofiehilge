@@ -106,4 +106,14 @@ OPSÆTNING AF PROJKET:
 
 --i assets mappen flyt react svg op til public mappen.
 
-index.css: kaver et root rest, den slettes
+index.css: kaver et root rest, den slettes, hele filen
+
+HVORDAN LAVER MAN COMMITS TIL GIT I TERMINALEN:
+--git add
+--git commit - "(commit besked)"
+--git push
+--> så er det sendt afsted og uploadet.
+
+OPRET NY BRANCH
+-- git checkout -b "dev"
+checkout fortæller at man vil checkeout af main branch og -b siger at man vil oprette nyh branch.
