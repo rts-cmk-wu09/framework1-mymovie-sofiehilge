@@ -109,7 +109,7 @@ OPSÆTNING AF PROJKET:
 index.css: kaver et root rest, den slettes, hele filen
 
 HVORDAN LAVER MAN COMMITS TIL GIT I TERMINALEN:
---git add
+--git add .
 --git commit - "(commit besked)"
 --git push
 --> så er det sendt afsted og uploadet.
@@ -117,3 +117,24 @@ HVORDAN LAVER MAN COMMITS TIL GIT I TERMINALEN:
 OPRET NY BRANCH
 -- git checkout -b "dev"
 checkout fortæller at man vil checkeout af main branch og -b siger at man vil oprette nyh branch.
+
+når du laver en ny commit og push vil den komme med en besked at dev-branch ikke har en dev-branch i git, men kun lokalt kopier den kommando som anbefales: git push --set-upstream origin dev
+
+og så oprettes dev branch online.
+
+STRUKTUR FOR PROJEKTET:
+--overordnet container med id: "app"
+-- Header: med My Movie og toogle, dvs. det består af to komponenter, hvor header er en lille template.
+-- Main: indeholder både new showing og popular i hver deres section.
+-- New showing: alle filmene i en section og hver film i en article, som indeholder en img med en heading
+-- footer: navigation: liste: tre ikoner
+
+TIPS: 
+-- er der noget der skal bruges mere end en gang, laves det som en componenet.
+-- fil navne til componenter skal skrives med stort eg. Heading.jsx - jsx. fortæller at det er en template der indeholder en react extension.
+-- VIGTIGT med stort forbogstav til  componenter, da det er den måde jsx differenciere mellem hvad der er komponenter og hvad der er elementer.
+-- et komponent kan kun returnere et element, derfor hvis vi har brug for at returnere et komponent med to elementer i kunne man umiddelbart bruge en div som container, men den renderes i domen. Derfor skal man bruge fraction-tag <>
+
+-- For ikke at skrive component functionen hele tiden, har vi installeret et plugin og kan nu skrive SFC, som hjælper os med at skrive hele functionen automatisk
+
+-- vi henter REACT Icons ned med npm, da den åbner for ikoner fra flere biblioteker.
