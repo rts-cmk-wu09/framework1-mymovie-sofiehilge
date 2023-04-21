@@ -131,6 +131,7 @@ STRUKTUR FOR PROJEKTET:
 
 INSTALLATION AF STYLE COMPONENT:
 -- skriv i terminalen: npm install styled-components
+-- i det komponent du vil style, skal du skrive import styled from style component.
 
 TIPS: 
 -- er der noget der skal bruges mere end en gang, laves det som en componenet.

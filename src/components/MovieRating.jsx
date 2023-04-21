@@ -1,4 +1,5 @@
-import {FaStar} from "react-icons/fa"; //react-icons giver adgang til filen, FaStar er navnet på ikonet
+import {FaStar} from "react-icons/fa"; //react-icons giver adgang til filen, FaStar er navnet på ikonet¨
+import styled from "styled-components";
 
 const MovieRating = () => {
   return (
