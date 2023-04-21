@@ -1,39 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@300&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@300&display=swap");
+body {
   margin: 0;
 }
 
 #root {
   max-width: 768px;
   padding: 2rem;
-  text-align: center;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
-h1, h2{
-  font-family: 'Merriweather', serif;
-
+h1,
+h2 {
+  font-family: "Merriweather", serif;
 }
 
-.flexContainer{
+.flexContainer {
   display: flex;
 }
 
-.space-between{
+.space-between {
   justify-content: space-between;
   align-items: center;
 }
 
-.scroll{
+.scroll {
   overflow-x: scroll;
-  --ms-overflow-style: none;/* fjerner i Internet Explore, ms står for microsoft */
-  scrollbar-width: none;/* fjerner i firefox */
-}/* hver browser har sin egen måde at style på, derfor bliver vi nødt til at skrive for flere. */
+  --ms-overflow-style: none; /* fjerner i Internet Explore, ms står for microsoft */
+  scrollbar-width: none; /* fjerner i firefox */
+} /* hver browser har sin egen måde at style på, derfor bliver vi nødt til at skrive for flere. */
 
-.scroll::-webkit-scrollbar{ /* Kun nødvendigt at sætte class scroll på, da denne tillægges scroll baren, og går specifikt efter webkit browser. Ellers ville man ikke kunne lave det reset for Internet explore og firefox */
-  display: none;/* fjerner scroll baren i chrome */
+.scroll::-webkit-scrollbar {
+  /* Kun nødvendigt at sætte class scroll på, da denne tillægges scroll baren, og går specifikt efter webkit browser. Ellers ville man ikke kunne lave det reset for Internet explore og firefox */
+  display: none; /* fjerner scroll baren i chrome */
 }
 
-.movieCardContainer{
-  margin: 0 -2rem;/* Fordi der på rooten er 2rem, men vi vil ikke have de 2 rem på vores movie-card, derfor -2 */
+.movieCardContainer {
+  margin: 0 -2rem; /* Fordi der på rooten er 2rem, men vi vil ikke have de 2 rem på vores movie-card, derfor -2 */
+  gap: 1.3rem;
+  padding-left: 2rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
