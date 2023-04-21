@@ -110,7 +110,7 @@ index.css: kaver et root rest, den slettes, hele filen
 
 HVORDAN LAVER MAN COMMITS TIL GIT I TERMINALEN:
 --git add .
---git commit - "(commit besked)"
+--git commit -m "(commit besked)"
 --git push
 --> så er det sendt afsted og uploadet.
 
