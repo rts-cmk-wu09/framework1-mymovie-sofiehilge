@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@300&display=swap');
+
 #root {
   max-width: 768px;
   padding: 2rem;
   text-align: center;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1, h2{
+  font-family: 'Merriweather', serif;
+
 }
 
 .flexContainer{
   display: flex;
 }
 
-.justify{
+.space-between{
   justify-content: space-between;
+}
+
+.scroll{
+  overflow-x: scroll;
+  --ms-overflow-style: none;/* fjerner i Internet Explore, ms står for microsoft */
+  scrollbar-width: none;/* fjerner i firefox */
+}/* hver browser har sin egen måde at style på, derfor bliver vi nødt til at skrive for flere. */
+
+.scroll::-webkit-scrollbar{ /* Kun nødvendigt at sætte class scroll på, da denne tillægges scroll baren, og går specifikt efter webkit browser. Ellers ville man ikke kunne lave det reset for Internet explore og firefox */
+  display: none;/* fjerner scroll baren i chrome */
 }
