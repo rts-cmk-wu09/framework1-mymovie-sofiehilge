@@ -129,6 +129,9 @@ STRUKTUR FOR PROJEKTET:
 -- New showing: alle filmene i en section og hver film i en article, som indeholder en img med en heading
 -- footer: navigation: liste: tre ikoner
 
+INSTALLATION AF STYLE COMPONENT:
+-- skriv i terminalen: npm install styled-components
+
 TIPS: 
 -- er der noget der skal bruges mere end en gang, laves det som en componenet.
 -- fil navne til componenter skal skrives med stort eg. Heading.jsx - jsx. fortæller at det er en template der indeholder en react extension.
